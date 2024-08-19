@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(255, 237, 255);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.title{
+    text-align: center;
+}
+
+.container{
+    width: 400px;
+    background-color: white;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+li{
+    padding: 5px;
+}
+
+li::marker{
+    color:rgb(179, 105, 179);
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+}
